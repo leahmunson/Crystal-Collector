@@ -1,9 +1,5 @@
-// console.log("It'ss linked yay for us!");
-
 //set up game
-// $(document).ready(function()){
     var targetScore = Math.floor(Math.random()*120) + 1;
-    console.log(targetScore);
     $('#targetScoreSpot').text(targetScore);
     var crystal1= Math.floor(Math.random()*11)+1;
     var crystal2= Math.floor(Math.random()*11)+1;
@@ -14,11 +10,10 @@
     var losses = 0;
     $('#userWins').text(wins);
     $('#userLosses').text(losses);
-// }
 
 //reset game
 function reset (){
-    var targetScore = Math.floor(Math.random()*120) + 1;
+    targetScore = Math.floor(Math.random()*120) + 1;
     console.log(targetScore);
     $('#targetScoreSpot').text(targetScore);
     userTotal = 0;
@@ -87,4 +82,5 @@ $('#one').on ('click', function(){
         else if (userTotal > targetScore){
           addLoss();
         }
-  });   
+  }
+  );   
