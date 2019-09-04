@@ -26,12 +26,12 @@ ul {
 }
 
 div.header, div.gems{
-    background-color:#F0F0F0;
+    background-color:white;
     ;
 }
 div.header, div.instructions{
     width: 50%;
-    background-color:#F0F0F0;
+    background-color: white;
 }
 .numberToMatch, .winsAndLosses{
 	float: left;
@@ -47,7 +47,7 @@ div.header, div.instructions{
 }
 .gems{
     clear: both;
-    background-color:#F0F0F0;
+    background-color: white;
 }
 .gemImage{
 	height: 60px;
